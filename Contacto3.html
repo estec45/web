@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/Validaform.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <form action="recibe2.php" method="POST" name="fvalida">
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre" size="30" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>Edad:</td>
+                <td><input type="text" name="edad" size="3" maxlength="2"></td>
+            </tr>
+            <tr>
+                <td>Intereses:</td>
+                <td>
+                    <select name="interes">
+                        <option value="Elegir">Elegir
+                            <option value="Deporte">Aficion al deporte</option>
+                            <option value="Musica">Aficion a la musica</option>
+                            <option value="Pintura">Aficion a la pintura</option>
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <td colspan="2" align="center"><input type="button" value="Enviar" onclick="valida_envia()"></td>
+        </table>
+    </form>
+</body>
+</html>

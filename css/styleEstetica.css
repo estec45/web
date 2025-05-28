@@ -1,0 +1,47 @@
+body {
+    background-color: #7bfdff; 
+}
+
+/* Diseño Responsivo Logo y Título */
+.header-img {
+    width: 100%;
+    background-color: #c9fbff;
+    text-align: center;
+}
+
+tr, tbody {
+    width: 100%;
+}
+
+.left-h {
+    width: 15%;
+    text-align: center;
+}
+
+.left-h img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    object-fit: cover;
+}
+
+.right-h {
+    width: 100%;
+}
+
+.right-h img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    object-fit: cover;
+}
+
+
+article{
+    
+    min-width: 300px; 
+    background-color: #ffffff ;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh; 
+}
